@@ -1,0 +1,90 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  /*nav bar section start*/
+  .web {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    margin-right: 20px;
+  }
+  #mynav ul li {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  /*nav bar section end*/
+  /*Top player section start*/
+  .top_player img {
+    margin-left: 20px;
+  }
+  /*Top player section end*/
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /*nav bar section start*/
+  .web {
+    display: none;
+  }
+  .mobile {
+    display: block;
+    margin-right: 20px;
+  }
+  #mynav ul li {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  /*nav bar section end*/
+
+  /*Top player section start*/
+  .top_player img {
+    margin-left: 30px;
+  }
+  /*Top player section end*/
+
+  /*Course section start*/
+  .card-deck .card {
+    flex: 1 auto;
+  }
+  .card img {
+    width: 95%;
+  }
+  /*Course section end*/
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /*Top player section start*/
+  .top_player img {
+    margin-left: 40px;
+  }
+  /*Top player section end*/
+
+  /*Course section start*/
+  .card-deck .card {
+    flex: 1 auto;
+  }
+  .card img {
+    width: 95%;
+  }
+  /*Course section end*/
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /*Top player section start*/
+  .top_player img {
+    margin-left: 50px;
+  }
+  /*Top player section end*/
+
+  /*course section start*/
+  .time {
+    padding: 10px 15px;
+  }
+  /*course section start*/
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+}
